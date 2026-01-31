@@ -1,2 +1,4 @@
 # MealTracker-ToS
-This is the Terms and Services for the Meal Tracker App
+These are the Terms and Services for the Meal Tracker App
+
+Access here: https://jordan-letchford.github.io/MealTracker-ToS/
