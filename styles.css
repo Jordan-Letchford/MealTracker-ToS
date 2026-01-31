@@ -12,7 +12,7 @@ body {
     background: #146895; /* MealTracker blue */
     color: white;
     line-height: 1.6;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 /* Header */
@@ -70,18 +70,24 @@ li {
     margin-bottom: 6px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: underline;
-    font-weight: 600;
-}
-
-
 /* Updated Date */
 .updated {
     font-size: 15px;
     margin-bottom: 20px;
     color: #e3f4ff;
+}
+
+/* Links */
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: 0.25s ease;
+}
+
+a:hover {
+    color: #bfe7ff;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
 
 /* Footer */
@@ -90,4 +96,14 @@ a {
     margin-top: 40px;
     color: #d9ecf7;
     font-size: 14px;
+}
+
+/* Footer Navigation */
+.footer-nav {
+    margin-top: 12px;
+}
+
+.footer-nav a {
+    margin: 0 10px;
+    font-size: 15px;
 }
