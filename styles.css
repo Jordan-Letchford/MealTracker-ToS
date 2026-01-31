@@ -86,7 +86,7 @@ a {
 }
 
 a:hover {
-    color: #bfe7ff;
+    color: #000000; /*#bfe7ff; */
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
 }
 
